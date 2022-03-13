@@ -1,0 +1,13 @@
+{
+	"name": "@reach-sh/react-tutorial",
+	"type": "module",
+	"author": "reach.sh",
+	"license": "Apache-2.0",
+	"scripts": {
+		"lint": "eslint --ignore-path .gitignore --ext .mjs .",
+		"index": "node --experimental-modules --unhandled-rejections=strict --harmony-top-level-await index.mjs"
+	},
+	"devDependencies": {
+		"@babel/plugin-syntax-top-level-await": "^7.14.5"
+	}
+}

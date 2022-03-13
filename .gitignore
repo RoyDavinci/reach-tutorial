@@ -1,0 +1,9 @@
+/build/
+# artifacts of the VSCode plugin
+/reach
+/.index.rsh.temp
+/.vscode
+/build
+node_modules/
+tls/
+/desc.txt
